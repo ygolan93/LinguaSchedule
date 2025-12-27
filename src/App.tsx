@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { LayoutDashboard, Users, GraduationCap, Calendar, Plus, Filter, AlertTriangle, ChevronLeft, ChevronRight, Check } from 'lucide-react';
 import { Student, Teacher, Lesson, Level, SubscriptionPackage, SubscriptionStatus, LessonStatus, DAYS_OF_WEEK } from './types';
-import { BookingModal } from './components/BookingModal';
-import { StudentModal } from './components/StudentModal';
-import { TeacherModal } from './components/TeacherModal';
-import { LessonModal } from './components/LessonModal';
+import { BookingModal } from '../components/BookingModal';
+import { StudentModal } from '../components/StudentModal';
+import { TeacherModal } from '../components/TeacherModal';
+import { LessonModal } from '../components/LessonModal';
 import { addMinutes, getStartOfWeek, getWeekDays, formatDateYYYYMMDD, formatDisplayDate, isTimeInRange, doIntervalsOverlap } from './utils';
 
 // --- CONSTANTS ---

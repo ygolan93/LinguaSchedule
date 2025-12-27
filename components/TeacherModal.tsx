@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Teacher, Level, WorkingHour, DAYS_OF_WEEK } from '../types';
+import { Teacher, Level, WorkingHour, DAYS_OF_WEEK } from '../src/types';
 import { User, Clock, Trash2, Plus } from 'lucide-react';
 
 interface TeacherModalProps {

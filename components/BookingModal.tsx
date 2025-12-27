@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Teacher, Student, Lesson, SubscriptionStatus, LessonStatus } from '../types';
-import { checkStudentAvailability, getAvailableTeachersForSlot, getAvailableStudentsForSlot } from '../utils';
+import { Teacher, Student, Lesson, SubscriptionStatus, LessonStatus } from '../src/types';
+import { checkStudentAvailability, getAvailableTeachersForSlot, getAvailableStudentsForSlot } from '../src/utils';
 import { X, AlertCircle, Check, User, Clock } from 'lucide-react';
 
 interface BookingModalProps {

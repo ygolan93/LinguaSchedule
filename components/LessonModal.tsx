@@ -1,7 +1,7 @@
 import React from 'react';
-import { Lesson, Student, Teacher, LessonStatus } from '../types';
+import { Lesson, Student, Teacher, LessonStatus } from '../src/types';
 import { X, Calendar, Clock, User, AlertTriangle, CheckCircle } from 'lucide-react';
-import { addMinutes } from '../utils';
+import { addMinutes } from '../src/utils';
 
 interface LessonModalProps {
   isOpen: boolean;

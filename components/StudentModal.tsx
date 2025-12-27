@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Student, Level, SubscriptionPackage, SubscriptionStatus, PACKAGE_AMOUNTS, Lesson, LessonStatus } from '../types';
+import { Student, Level, SubscriptionPackage, SubscriptionStatus, PACKAGE_AMOUNTS, Lesson, LessonStatus } from '../src/types';
 import { Mail, Phone, Calendar, Gift, History, User, PlusCircle } from 'lucide-react';
-import { addMinutes } from '../utils';
+import { addMinutes } from '../src/utils';
 
 interface StudentModalProps {
   student: Student;
