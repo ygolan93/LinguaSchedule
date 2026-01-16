@@ -69,9 +69,10 @@ The current prototype uses in-memory mock data for students, teachers, and lesso
 🌐 Live Demo
 
 Currently hosted on:
-[https://linguaschedule.netlify.app]
+https://linguaschedule.netlify.app
 
 
-© 2026 LinguaSched – built with ♥️ by ygolan93[(https://github.com/ygolan93?tab=repositories)]
+© 2026 LinguaSched – built with ♥️ by ygolan93
+https://github.com/ygolan93?tab=repositories
 
 
