@@ -32,20 +32,32 @@ npm run build
 ``
 
 📁 Project Structure
-.
 ├── App.tsx
+
 ├── index.tsx
+
 ├── index.html
+
 ├── vite.config.ts
+
 ├── .env.local
+
 ├── .gitignore
+
 ├── netlify.toml
+
 ├── utils.ts
+
 ├── types.ts
+
 ├── components/
+
 │   ├── BookingModal.tsx
+
 │   ├── StudentModal.tsx
+
 │   ├── TeacherModal.tsx
+
 │   └── LessonModal.tsx
 
 
