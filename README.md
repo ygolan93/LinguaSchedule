@@ -32,6 +32,7 @@ npm run build
 ``
 
 📁 Project Structure
+
 ├── App.tsx
 
 ├── index.tsx
